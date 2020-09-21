@@ -8,7 +8,7 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
-                            src="https://www.shareicon.net/data/2015/09/24/106427_man_512x512.png"
+                            src="https://iili.io/2IOxmG.jpg"
                             alt="avatar" 
                             className="avatar-img"
                         />
@@ -21,11 +21,11 @@ class Landing extends Component {
 
                         <div className="social-links">
                             {/* Linkedin */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.linkedin.com/in/sebastian-falba-a591b9195/" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-linkedin-square" aria-hidden="true"n/>
                             </a>
                               {/* Github */}
-                              <a href="http://github.com" rel="noopener noreferrer" target="_blank">
+                              <a href="http://github.com/radgoll" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github-square" aria-hidden="true"n/>
                             </a>
                               {/* Freecodecamp */}

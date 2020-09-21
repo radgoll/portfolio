@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tab, Tabs, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
+
 class Projects extends Component {
     constructor(props) {
         super(props);
@@ -13,14 +14,14 @@ class Projects extends Component {
                 <div className="project-grid">
                 {/* Project 1  */}
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>React project #1</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>Real time chat application</CardTitle>
                 <CardText>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    Real time chat application project with made in React.js, Socket.io and Node.js
                 </CardText>
                 <CardActions border>
-                    <Button colored>Github</Button>
+                    <Button href="https://github.com/radgoll/chat-application" colored>Github</Button>
                     <Button colored>CodePen</Button>
-                    <Button colored>LiveDemo</Button>
+                    <Button href="https://falbachat.netlify.app" colored>LiveDemo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton name="share" />
@@ -28,48 +29,32 @@ class Projects extends Component {
                 </Card>
                 {/* Project 2  */}
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>React project #1</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>My portfolio project</CardTitle>
                 <CardText>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                   Project carried out using the React.js library
                 </CardText>
                 <CardActions border>
-                    <Button colored>Github</Button>
+                    <Button href="https://github.com/radgoll/portfolio" colored>Github</Button>
                     <Button colored>CodePen</Button>
-                    <Button colored>LiveDemo</Button>
+                    <Button href="https://falbaportfolio.netlify.app" colored>LiveDemo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton name="share" />
                 </CardMenu>
                 </Card>
-                {/* Project 3  */}
-                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>React project #1</CardTitle>
-                <CardText>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                </CardText>
-                <CardActions border>
-                    <Button colored>Github</Button>
-                    <Button colored>CodePen</Button>
-                    <Button colored>LiveDemo</Button>
-                </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                </CardMenu>
-                </Card>
-
                 </div>
             )
         } else if (this.state.activeTab === 1) {
             return(
-                <div>This is Angular</div>
+                <div></div>
             )
         } else if (this.state.activeTab === 2) {
             return (
-                <div><h1>This is Vue</h1></div>
+                <div></div>
             )
         } else if (this.state.activeTab === 3) {
             return (
-                <div><h1>This is MongoDB</h1></div>
+                <div></div>
             )
         }
     }
